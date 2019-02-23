@@ -7,6 +7,16 @@
 //
 
 import Foundation
+import AppKit
 
-print("Hello, World!")
+let gameData = getDefaults(name: "Defaults")
 
+let world = World(width: 1000, height: 1000)
+
+world.playerView.printMap()
+
+print("press s to move south")
+if readLine() == "s" {
+    world.playerView.moveViewSouth()
+    world.playerView.printMap()
+}

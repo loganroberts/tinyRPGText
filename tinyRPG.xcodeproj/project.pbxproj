@@ -8,6 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		C877357C221F7C4100ECB8FC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C877357B221F7C4100ECB8FC /* main.swift */; };
+		C8773583221F7C9700ECB8FC /* Defaults.plist in Sources */ = {isa = PBXBuildFile; fileRef = C8773582221F7C8B00ECB8FC /* Defaults.plist */; };
+		C8773585221F7CB200ECB8FC /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8773584221F7CB200ECB8FC /* Character.swift */; };
+		C8773587221F7CBE00ECB8FC /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8773586221F7CBE00ECB8FC /* World.swift */; };
+		C8773589221F7CCA00ECB8FC /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8773588221F7CCA00ECB8FC /* Story.swift */; };
+		C877358B221F7CD200ECB8FC /* Objectives.swift in Sources */ = {isa = PBXBuildFile; fileRef = C877358A221F7CD200ECB8FC /* Objectives.swift */; };
+		C8773591221F7D0D00ECB8FC /* Movement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8773590221F7D0D00ECB8FC /* Movement.swift */; };
+		C8773593221F7D1200ECB8FC /* Combat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8773592221F7D1200ECB8FC /* Combat.swift */; };
+		C8773595221F7D1C00ECB8FC /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8773594221F7D1C00ECB8FC /* Inventory.swift */; };
+		C8773597221F7D2D00ECB8FC /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8773596221F7D2D00ECB8FC /* Attributes.swift */; };
+		C877359B221F7D5E00ECB8FC /* TileMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C877359A221F7D5E00ECB8FC /* TileMap.swift */; };
+		C877359D221F7D6500ECB8FC /* WorldCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C877359C221F7D6500ECB8FC /* WorldCreation.swift */; };
+		C87735A1221F7D8200ECB8FC /* CombatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87735A0221F7D8200ECB8FC /* CombatManager.swift */; };
+		C87735A3221F7D8C00ECB8FC /* ExplorationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87735A2221F7D8C00ECB8FC /* ExplorationManager.swift */; };
+		C87735A5221F7DA600ECB8FC /* NPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87735A4221F7DA600ECB8FC /* NPC.swift */; };
+		C87735A7221F7DB900ECB8FC /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87735A6221F7DB900ECB8FC /* Interface.swift */; };
+		C87735A9221F7DCD00ECB8FC /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87735A8221F7DCD00ECB8FC /* Event.swift */; };
+		C87735AB221F7DDA00ECB8FC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87735AA221F7DDA00ECB8FC /* Extensions.swift */; };
+		C87735AD221F8EE300ECB8FC /* Observers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87735AC221F8EE300ECB8FC /* Observers.swift */; };
+		C8FC7D312220387A0050234F /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC7D302220387A0050234F /* Weapon.swift */; };
+		C8FC7D33222038800050234F /* Armor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC7D32222038800050234F /* Armor.swift */; };
+		C8FC7D3722203C070050234F /* AttackMoves.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC7D3622203C070050234F /* AttackMoves.swift */; };
+		C8FC7D39222053F70050234F /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC7D38222053F70050234F /* Experience.swift */; };
+		C8FC7D3D2220DC350050234F /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC7D3C2220DC350050234F /* Tile.swift */; };
+		C8FC7D3F2220E75A0050234F /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FC7D3E2220E75A0050234F /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +49,30 @@
 /* Begin PBXFileReference section */
 		C8773578221F7C4100ECB8FC /* tinyRPG */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tinyRPG; sourceTree = BUILT_PRODUCTS_DIR; };
 		C877357B221F7C4100ECB8FC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C8773582221F7C8B00ECB8FC /* Defaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
+		C8773584221F7CB200ECB8FC /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		C8773586221F7CBE00ECB8FC /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		C8773588221F7CCA00ECB8FC /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		C877358A221F7CD200ECB8FC /* Objectives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objectives.swift; sourceTree = "<group>"; };
+		C8773590221F7D0D00ECB8FC /* Movement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movement.swift; sourceTree = "<group>"; };
+		C8773592221F7D1200ECB8FC /* Combat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combat.swift; sourceTree = "<group>"; };
+		C8773594221F7D1C00ECB8FC /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		C8773596221F7D2D00ECB8FC /* Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
+		C877359A221F7D5E00ECB8FC /* TileMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileMap.swift; sourceTree = "<group>"; };
+		C877359C221F7D6500ECB8FC /* WorldCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCreation.swift; sourceTree = "<group>"; };
+		C87735A0221F7D8200ECB8FC /* CombatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombatManager.swift; sourceTree = "<group>"; };
+		C87735A2221F7D8C00ECB8FC /* ExplorationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorationManager.swift; sourceTree = "<group>"; };
+		C87735A4221F7DA600ECB8FC /* NPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPC.swift; sourceTree = "<group>"; };
+		C87735A6221F7DB900ECB8FC /* Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
+		C87735A8221F7DCD00ECB8FC /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		C87735AA221F7DDA00ECB8FC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C87735AC221F8EE300ECB8FC /* Observers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observers.swift; sourceTree = "<group>"; };
+		C8FC7D302220387A0050234F /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		C8FC7D32222038800050234F /* Armor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Armor.swift; sourceTree = "<group>"; };
+		C8FC7D3622203C070050234F /* AttackMoves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackMoves.swift; sourceTree = "<group>"; };
+		C8FC7D38222053F70050234F /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		C8FC7D3C2220DC350050234F /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		C8FC7D3E2220E75A0050234F /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +106,72 @@
 			isa = PBXGroup;
 			children = (
 				C877357B221F7C4100ECB8FC /* main.swift */,
+				C877358C221F7CDA00ECB8FC /* Character */,
+				C877358D221F7CE100ECB8FC /* World */,
+				C877358E221F7CEB00ECB8FC /* Story */,
+				C877358F221F7CEF00ECB8FC /* Extras */,
 			);
 			path = tinyRPG;
+			sourceTree = "<group>";
+		};
+		C877358C221F7CDA00ECB8FC /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				C8773584221F7CB200ECB8FC /* Character.swift */,
+				C8773590221F7D0D00ECB8FC /* Movement.swift */,
+				C8773592221F7D1200ECB8FC /* Combat.swift */,
+				C8773594221F7D1C00ECB8FC /* Inventory.swift */,
+				C8773596221F7D2D00ECB8FC /* Attributes.swift */,
+				C8FC7D38222053F70050234F /* Experience.swift */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		C877358D221F7CE100ECB8FC /* World */ = {
+			isa = PBXGroup;
+			children = (
+				C8773586221F7CBE00ECB8FC /* World.swift */,
+				C8FC7D3E2220E75A0050234F /* PlayerView.swift */,
+				C877359A221F7D5E00ECB8FC /* TileMap.swift */,
+				C8FC7D3C2220DC350050234F /* Tile.swift */,
+				C877359C221F7D6500ECB8FC /* WorldCreation.swift */,
+				C87735A0221F7D8200ECB8FC /* CombatManager.swift */,
+				C87735A2221F7D8C00ECB8FC /* ExplorationManager.swift */,
+				C87735A4221F7DA600ECB8FC /* NPC.swift */,
+				C8FC7D2D222038590050234F /* Items */,
+			);
+			path = World;
+			sourceTree = "<group>";
+		};
+		C877358E221F7CEB00ECB8FC /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				C8773588221F7CCA00ECB8FC /* Story.swift */,
+				C877358A221F7CD200ECB8FC /* Objectives.swift */,
+				C87735A6221F7DB900ECB8FC /* Interface.swift */,
+				C87735A8221F7DCD00ECB8FC /* Event.swift */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		C877358F221F7CEF00ECB8FC /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				C87735AA221F7DDA00ECB8FC /* Extensions.swift */,
+				C87735AC221F8EE300ECB8FC /* Observers.swift */,
+				C8773582221F7C8B00ECB8FC /* Defaults.plist */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		C8FC7D2D222038590050234F /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				C8FC7D302220387A0050234F /* Weapon.swift */,
+				C8FC7D32222038800050234F /* Armor.swift */,
+				C8FC7D3622203C070050234F /* AttackMoves.swift */,
+			);
+			path = Items;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +231,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87735A3221F7D8C00ECB8FC /* ExplorationManager.swift in Sources */,
+				C8773585221F7CB200ECB8FC /* Character.swift in Sources */,
+				C877358B221F7CD200ECB8FC /* Objectives.swift in Sources */,
+				C8773583221F7C9700ECB8FC /* Defaults.plist in Sources */,
+				C87735A1221F7D8200ECB8FC /* CombatManager.swift in Sources */,
+				C8FC7D312220387A0050234F /* Weapon.swift in Sources */,
+				C8FC7D3D2220DC350050234F /* Tile.swift in Sources */,
+				C8FC7D33222038800050234F /* Armor.swift in Sources */,
+				C8FC7D3F2220E75A0050234F /* PlayerView.swift in Sources */,
+				C87735AD221F8EE300ECB8FC /* Observers.swift in Sources */,
+				C87735A9221F7DCD00ECB8FC /* Event.swift in Sources */,
+				C877359B221F7D5E00ECB8FC /* TileMap.swift in Sources */,
+				C8773595221F7D1C00ECB8FC /* Inventory.swift in Sources */,
+				C877359D221F7D6500ECB8FC /* WorldCreation.swift in Sources */,
+				C8773591221F7D0D00ECB8FC /* Movement.swift in Sources */,
+				C87735A5221F7DA600ECB8FC /* NPC.swift in Sources */,
+				C8773587221F7CBE00ECB8FC /* World.swift in Sources */,
+				C8773593221F7D1200ECB8FC /* Combat.swift in Sources */,
+				C87735AB221F7DDA00ECB8FC /* Extensions.swift in Sources */,
 				C877357C221F7C4100ECB8FC /* main.swift in Sources */,
+				C8FC7D39222053F70050234F /* Experience.swift in Sources */,
+				C8773597221F7D2D00ECB8FC /* Attributes.swift in Sources */,
+				C8FC7D3722203C070050234F /* AttackMoves.swift in Sources */,
+				C8773589221F7CCA00ECB8FC /* Story.swift in Sources */,
+				C87735A7221F7DB900ECB8FC /* Interface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
