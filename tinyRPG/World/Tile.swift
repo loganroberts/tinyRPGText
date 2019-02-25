@@ -11,6 +11,7 @@ import Foundation
 struct Tile {
     enum Terrain: String{
         case blank = "Blank"
+        case player = "8"
         case grass = "."
         case water = "~"
         case sand = "s"

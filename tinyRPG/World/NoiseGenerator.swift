@@ -1,5 +1,5 @@
 //
-//  WorldCreation.swift
+//  NoiseGenerator.swift
 //  tinyRPG
 //
 //  Created by Logan Roberts on 2/22/19.
@@ -61,7 +61,7 @@ class NoiseGenerator {
     }
     
     
-    func generateNoiseImage(size:CGSize) -> NSImage {
+    func generateNoiseImage(size:CGSize){
         
         let width = Int(size.width)
         let height = Int(size.height)
@@ -86,8 +86,11 @@ class NoiseGenerator {
             }
         }
         let outputImage = imageFromARGB32Bitmap(pixels: pixelArray, width: width, height: height)
+        let imageURL = FileManager.default.urls(for: .desktopDirectory, in: .userDomainMask).first!.appendingPathComponent("image.png")
+        if outputImage.savePNG(to: imageURL) {
+            print("Imaged saved")
+        }
         
-        return outputImage
     }
     
     
@@ -194,7 +197,6 @@ class NoiseGenerator {
                 perlinNoise[indexW][indexH] = perlinNoise[indexW][indexH] / totalAmplitude
             }
         }
-        
         return perlinNoise
     }
     

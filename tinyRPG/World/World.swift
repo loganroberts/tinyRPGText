@@ -12,13 +12,17 @@ import Foundation
 ///acutal world holding tiles and maps etc
 class World {
     
-    var worldMap: TileMap
-    var playerView: PlayerView
+    enum Direction {
+        case north
+        case south
+        case east
+        case west
+    }
     
+    var playerView: MapView
     
     init(width: Int, height: Int) {
-        self.worldMap = TileMap(height: height, width: width)
-        self.playerView = PlayerView(world: worldMap)
+        self.playerView = MapView(width: width, height: height)
     }
     
     
