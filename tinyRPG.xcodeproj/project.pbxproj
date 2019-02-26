@@ -20,7 +20,7 @@
 		C877359D221F7D6500ECB8FC /* NoiseGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C877359C221F7D6500ECB8FC /* NoiseGenerator.swift */; };
 		C87735A1221F7D8200ECB8FC /* CombatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87735A0221F7D8200ECB8FC /* CombatManager.swift */; };
 		C87735A3221F7D8C00ECB8FC /* ExplorationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87735A2221F7D8C00ECB8FC /* ExplorationManager.swift */; };
-		C87735A5221F7DA600ECB8FC /* NPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87735A4221F7DA600ECB8FC /* NPC.swift */; };
+		C87735A5221F7DA600ECB8FC /* AI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87735A4221F7DA600ECB8FC /* AI.swift */; };
 		C87735A7221F7DB900ECB8FC /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87735A6221F7DB900ECB8FC /* Interface.swift */; };
 		C87735A9221F7DCD00ECB8FC /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87735A8221F7DCD00ECB8FC /* Event.swift */; };
 		C87735AB221F7DDA00ECB8FC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87735AA221F7DDA00ECB8FC /* Extensions.swift */; };
@@ -60,7 +60,7 @@
 		C877359C221F7D6500ECB8FC /* NoiseGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoiseGenerator.swift; sourceTree = "<group>"; };
 		C87735A0221F7D8200ECB8FC /* CombatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombatManager.swift; sourceTree = "<group>"; };
 		C87735A2221F7D8C00ECB8FC /* ExplorationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorationManager.swift; sourceTree = "<group>"; };
-		C87735A4221F7DA600ECB8FC /* NPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPC.swift; sourceTree = "<group>"; };
+		C87735A4221F7DA600ECB8FC /* AI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI.swift; sourceTree = "<group>"; };
 		C87735A6221F7DB900ECB8FC /* Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
 		C87735A8221F7DCD00ECB8FC /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		C87735AA221F7DDA00ECB8FC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 				C877359C221F7D6500ECB8FC /* NoiseGenerator.swift */,
 				C87735A0221F7D8200ECB8FC /* CombatManager.swift */,
 				C87735A2221F7D8C00ECB8FC /* ExplorationManager.swift */,
-				C87735A4221F7DA600ECB8FC /* NPC.swift */,
+				C87735A4221F7DA600ECB8FC /* AI.swift */,
 				C8FC7D2D222038590050234F /* Items */,
 			);
 			path = World;
@@ -242,7 +242,7 @@
 				C8773595221F7D1C00ECB8FC /* Inventory.swift in Sources */,
 				C877359D221F7D6500ECB8FC /* NoiseGenerator.swift in Sources */,
 				C8773591221F7D0D00ECB8FC /* Movement.swift in Sources */,
-				C87735A5221F7DA600ECB8FC /* NPC.swift in Sources */,
+				C87735A5221F7DA600ECB8FC /* AI.swift in Sources */,
 				C8773587221F7CBE00ECB8FC /* World.swift in Sources */,
 				C8773593221F7D1200ECB8FC /* Combat.swift in Sources */,
 				C87735AB221F7DDA00ECB8FC /* Extensions.swift in Sources */,

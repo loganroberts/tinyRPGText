@@ -8,25 +8,29 @@
 
 import Foundation
 
-struct Tile {
-    enum Terrain: String{
+class Tile {
+    enum Terrain: String, Equatable {
         case blank = "Blank"
-        case player = "8"
-        case grass = "."
-        case water = "~"
-        case sand = "s"
-        case forest = "t"
+        case player = "𐂀"
+        case grass = "⟱"
+        case water = "♒︎"
+        case sand = "﹏"
+        case forest = "𐂷"
         case mountain = "∆"
     }
     
     var type = Terrain.blank
     var canSpawn = true
     var onscreen = false
-
+    var parent: Tile?
     var occupied = false
     var cost = 1
     var yLoc: Int
     var xLoc: Int
+    
+    var g = 0
+    var h = 0
+    var f = 0
     
     var width = 10
     var height = 10

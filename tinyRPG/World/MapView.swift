@@ -25,6 +25,7 @@ class MapView {
 
     var view = [[Tile]]()
     var perlinNoise = [[Double]]()
+    
     var columns: Int
     var rows: Int
 

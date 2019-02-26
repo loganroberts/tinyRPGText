@@ -48,6 +48,8 @@
 	<dict>
 		<key>Human</key>
 		<dict>
+			<key>MovementPoints</key>
+			<integer>1</integer>
 			<key>BaseXP</key>
 			<integer>25</integer>
 			<key>Health</key>

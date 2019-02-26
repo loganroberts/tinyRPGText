@@ -11,8 +11,11 @@ import Foundation
 class MovementSystem {
     var owner: Character
     
+    var movementPoints: Int
+    
     init(owner: Character) {
         self.owner = owner
+        self.movementPoints = ((gameData["RaceDefaults"] as! Dictionary<String, Any>)[owner.race.rawValue] as! Dictionary<String, Any>)["MovementPoints"] as! Int
     }
     
     func move(direction: World.Direction) {
@@ -32,6 +35,6 @@ class MovementSystem {
         }
     }
     
-    
-    
+  
 }
+
